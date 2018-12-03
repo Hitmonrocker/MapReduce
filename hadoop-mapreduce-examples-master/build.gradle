@@ -4,9 +4,11 @@ apply plugin: 'application'
 
 sourceCompatibility = 1.8
 mainClassName = 'com.vtmam.examplemapreduce.WordCount'
+
 version = '1.0'
 jar {
     manifest {
+        attributes('Main-Class': 'org.vtmam.examplemapreduce.WordCount')
     }
  
     baseName = 'example-MapReduceHadoop'
