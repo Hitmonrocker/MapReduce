@@ -8,7 +8,7 @@ mainClassName = 'com.vtmam.examplemapreduce.WordCount'
 version = '1.0'
 jar {
     manifest {
-        attributes('Main-Class': 'org.vtmam.examplemapreduce.WordCount')
+        attributes('Main-Class': 'org.vtmam.examplemapreduce.WordCount.WordCount')
     }
  
     baseName = 'example-MapReduceHadoop'
